@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.2)  17 AUG 2023 03:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.2)  17 AUG 2023 05:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -183,20 +183,20 @@ File: ot1cmbr.fd 2005/04/13 v8.1 (WaS)
 )) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -255,23 +255,23 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line
- 56.
+ 63.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
 File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
 )
 LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line
- 56.
+ 63.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/cmbright/omscmbrs.fd
 File: omscmbrs.fd 2005/04/13 v8.1 (WaS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 56.
+(Font)              <7> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 56.
+(Font)              <5> on input line 63.
 LaTeX Font Info:    Font shape `OT1/cmbr/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 64.
+(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 71.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -284,13 +284,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <My_Seal.png, id=1, 48.18pt x 48.18pt>
 File: My_Seal.png Graphic file (type png)
 <use My_Seal.png>
-Package pdftex.def Info: My_Seal.png  used on input line 74.
-(pdftex.def)             Requested size: 35.56593pt x 35.56587pt.
-
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 39.3159pt, for example:
-(fancyhdr)                \setlength{\footskip}{39.3159pt}.
-
+Package pdftex.def Info: My_Seal.png  used on input line 89.
+(pdftex.def)             Requested size: 28.45274pt x 28.4524pt.
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./My_Seal.png>]
@@ -304,13 +299,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: My_Seal.png Graphic file (type png)
 <use My_Seal.png>
-Package pdftex.def Info: My_Seal.png  used on input line 86.
-(pdftex.def)             Requested size: 35.56593pt x 35.56587pt.
-
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 39.3159pt, for example:
-(fancyhdr)                \setlength{\footskip}{39.3159pt}.
-
+Package pdftex.def Info: My_Seal.png  used on input line 93.
+(pdftex.def)             Requested size: 28.45274pt x 28.4524pt.
 [2]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -322,30 +312,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: My_Seal.png Graphic file (type png)
 <use My_Seal.png>
-Package pdftex.def Info: My_Seal.png  used on input line 88.
-(pdftex.def)             Requested size: 35.56593pt x 35.56587pt.
+Package pdftex.def Info: My_Seal.png  used on input line 111.
+(pdftex.def)             Requested size: 28.45274pt x 28.4524pt.
+[3]
 
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 39.3159pt, for example:
-(fancyhdr)                \setlength{\footskip}{39.3159pt}.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-[3] (./main.aux) ) 
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+File: My_Seal.png Graphic file (type png)
+<use My_Seal.png>
+Package pdftex.def Info: My_Seal.png  used on input line 126.
+(pdftex.def)             Requested size: 28.45274pt x 28.4524pt.
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+File: My_Seal.png Graphic file (type png)
+<use My_Seal.png>
+Package pdftex.def Info: My_Seal.png  used on input line 128.
+(pdftex.def)             Requested size: 28.45274pt x 28.4524pt.
+[5] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  2686 strings out of 478037
  48163 string characters out of 5839056
- 442345 words of memory out of 5000000
+ 444335 words of memory out of 5000000
  21116 multiletter control sequences out of 15000+600000
  472915 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,14n,77p,229b,406s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,13n,77p,1674b,395s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/hfbrig
 ht/hfbr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/hfbright/h
 fbr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbrb
 x10.pfb>
-Output written on main.pdf (3 pages, 78524 bytes).
+Output written on main.pdf (5 pages, 87133 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

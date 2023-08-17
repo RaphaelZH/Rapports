@@ -21,14 +21,15 @@
 	\fancyhead[L]{Summary of Scientific Articles}
 	\fancyhead[R]{\theauthor}
 	\fancyfoot[L]{\thedate}
-	\fancyfoot[R]{\includegraphics[width=1.25cm]{My_Seal.png}}
-	
+	\fancyfoot[C]{\vskip -10pt\includegraphics[width=1cm]{My_Seal.png}}
+	\fancyfoot[R]{\thepage}
 }
 \fancyhf{}
 \fancyhead[L]{Summary of Scientific Articles}
 \fancyhead[R]{\theauthor}
 \fancyfoot[L]{\thedate}
-\fancyfoot[R]{\includegraphics[width=1.25cm]{My_Seal.png}}
+\fancyfoot[C]{\vskip -10pt\includegraphics[width=1cm]{My_Seal.png}}
+\fancyfoot[R]{\thepage}
 \makeatletter
 \def\@maketitle{
 	\newpage
@@ -46,43 +47,82 @@
 \usepackage{lipsum}  
 \usepackage{cmbright}
 
+\makeatletter
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+	{3.25ex \@plus1ex \@minus.2ex}%
+	{-1em}%
+	{\normalfont\normalsize}}
+\makeatother
 
 \begin{document}
 	
 	\maketitle
 	
 	\hrule
-	\vskip 1.25em
+	\vskip 2em
 	\noindent\begin{tabular}{@{}ll}
 		Article Title & An Overview of Artificial Intelligence in Product Design for Smart Manufacturing\\
 		Article Authors & Janjira Aphirakmethawong, Erfu Yang, and Jörn Mehnen\\
 		Publication Information &  Proceedings of the 27th International Conference on Automation \& Computing, \\ & University of the West of England, Bristol, UK, 1-3 September 2022
 	\end{tabular}
-	\vskip .75em
+	\vskip 2em
 	\noindent\dotfill
 	
-	\section*{Positioning of the thesis}
-	\lipsum[1-2]
+	\section*{Introduction}
 	
-	\section*{Objectives}
-	\lipsum[3-3]
+	\paragraph*{The main concept of the fourth industrial revolution or Industry 4.0 is the digitization of manufacturing, which incorporates a variety of innovative technologies and is characterized by smart manufacturing. Artificial Intelligence (AI) has been applied to manufacturing operations not only to analyze data to make decisions, but even to autonomously self-monitor and self-control. Product design is a crucial activity in the manufacturing industry, which requires long development time, a lot of human experience and cost. The purpose of this article is to outline how AI can enhance the product design phase of smart manufacturing.}
 	
-	\section*{Plan}
-	\lipsum[4-4]
+	\section*{Smart Manufacturing \& Product Design}
 	
+	\paragraph*{Smart manufacturing is used to describe a manufacturing system driven by data-driven technology that acts as a fully integrated intelligent system that meets customer needs in real time and reacts to changing demands and conditions in the factory. Smart manufacturing consists of six pillars and more importantly, four characteristics that characterize smart manufacturing, namely flexibility, quick response, communication and collaboration, and integrated intelligent systems.}
+	
+	\paragraph*{Product design is the product design process that starts from receiving market demand or customer needs to generate the overall details of the product before production, and is a critical step that affects the success or failure of market competitiveness. Product design can be divided into three stages: conceptual design, embodiment design and detail design.}
+	
+	\section*{Artificial Intelligence in Product Design}
+	
+	\paragraph*{Product design should employ the best cutting-edge technologies, such as artificial intelligence, to facilitate the development and analysis of data for intelligent design decisions to meet customer needs in a timely manner, improve market competitiveness, and achieve efficient design.}
+	
+	\paragraph*{Among the three phases, conceptual design is the step of determining the conceptual functionality and design of a product by considering the requirements that are translated into concepts. Many researchers have focused on a systematic approach to understanding the requirements of the entire product. Customer requirements are generally expressed in natural language and in order to understand them it is necessary to use Natural Language Processing (NLP) techniques, which is a powerful branch of Artificial Intelligence. In this phase, it is necessary not only to translate the requirements into conceptual functionality, but also to find possibilities for conceptual design candidates for subsequent fleshing out and detailing, e.g., by applying AI in computer-aided design (CAD) and computer-aided engineering (CAE), in particular deep learning (DL). In addition to the above two parts, AI is applied in another part of the conceptual design phase, such as estimating costs and visualizing processing features.}
+	
+	\paragraph*{In the embodiment and detail design phase, there are two main types of activities: material selection and product form design. The former is a key point in product design because materials play a crucial role in the product design and production phases. Many researchers have become interested in the use of AI for material selection and have identified the importance of AI in material selection decisions. For the latter, designers need to spend a lot of time organizing data and design knowledge, and the available data is attractive to many researchers to facilitate designers to reduce design time-consuming and design errors in the product design phase, so many researchers try to adopt AI to manage this data. There are also studies related to AI-assisted design and automated product design through the implementation of AI and CAD model libraries aiming to utilize historical data to transform traditional design into automated design through AI.}
+	
+	\section*{Challenges and Future Research Directions}
+	
+	\paragraph*{This article points out that the challenges can be summarized as follows: the challenge of analyzing client needs in terms of dealing with natural language; the research challenge posed by the choice of materials; and the challenge of achieving knowledge transfer between designers.}
 	
 	\newpage
-	\hrule
-	\vskip 1.25em
+	
 	\noindent\begin{tabular}{@{}ll}
-		Article Title & An Overview of Artificial Intelligence in Product Design for Smart Manufacturing\\
-		Article Authors & Janjira Aphirakmethawong, Erfu Yang, and Jörn Mehnen\\
-		Publication Information &  Proceedings of the 27th International Conference on Automation \& Computing, \\ & University of the West of England, Bristol, UK, 1-3 September 2022
+		Article Title & Application of Artificial Intelligence Technology in Product Design\\
+		Article Authors & Naoyuki Nozaki, Eiichi Konno, Mitsuru Sato, Makoto Sakairi, Toshiyuki Shibuya, \\ & Yuuji Kanazawa, Serban Georgescu\\
+		Publication Information &  FUJITSU Sci. Tech. J., Vol. 53, No. 4, pp. 43–51 (July 2017)
 	\end{tabular}
-	\vskip .75em
+	\vskip 2em
 	\noindent\dotfill
 	
-	\section*{Positioning of the thesis}
+	\paragraph*{The traditional approach to solving a given problem with software is to explicitly formulate a procedure, i.e., an algorithm. However, in many of these problems, formulating an algorithm explicitly is difficult, as is the complex computation required to incorporate all the factors to be considered. At the same time, attention has been drawn to the importance of machine learning, an Artificial Intelligence (AI) technique that has the potential to overcome the limitations of traditional approaches based on explicit knowledge and rule presentation.}
+	
+	\paragraph*{This paper presents two case studies of the application of machine learning to product development, an example of its application in an electrical design environment and an example of its application in a structural design environment. The machine learning method used in the former is support vector regression, a regression analysis method for supervised learning, which is used here to estimate the number of layers of a printed circuit board (PCB). The latter calculates the similarity with the extracted feature vectors and detects components with similar shapes, and is used for automatic detection of 3D model components using shape recognition.}
+	
+	\paragraph*{This paper presents an example of the integration of machine learning into an integrated development platform, the Flexible Technology Computing Platform (FTCP), using Fujitsu's MONOZUKURI artificial intelligence framework. The framework applies machine learning techniques to the field of product design, in particular to common processes for different design areas and application topics. The framework is not only a learning model development framework but also a learning model utilization framework. For the former, this paper states that their current work is to develop guidelines and tools to establish a learning model development framework to support service development using machine learning techniques, with the aim of improving the efficiency of learning model development by preparing a series of necessary environments to minimize unnecessary rework. For the latter, the aim is to improve the accuracy of prediction and classification through machine learning techniques by creating learning models for the specific purpose of each applicable design domain and further creating learning models for each applicable topic in each domain. Users and service providers can access the MONOZUKURI AI Framework through a web application programming interface (API). The former can use the learning models according to the purpose and benefit from the required database in the cloud; the latter can register the learning models in the database in order to manage the learning models in the cloud and, more importantly, they can update the learning models according to the development of new design techniques and processes.}
+	
+	\paragraph*{The authors' goal is to develop FTCP 3.0 based on the concept of "One Platform" to support product design, in which the MONOZUKURI AI framework plays an important role. Machine Learning specializes in "Prediction/Classification" and "Clustering," and the authors prefer to differentiate and automate the design problem based on the design problem rather than solving all the problems using Machine Learning techniques, while retaining the pure Machine Learning/Hybrid Machine Learning Automation options.}
+	
+	\newpage
+	
+	\noindent\begin{tabular}{@{}ll}
+		Article Title & Application of Artificial Intelligence Technology in Product Design\\
+		Article Authors & Naoyuki Nozaki, Eiichi Konno, Mitsuru Sato, Makoto Sakairi, Toshiyuki Shibuya, \\ & Yuuji Kanazawa, Serban Georgescu\\
+		Publication Information &  FUJITSU Sci. Tech. J., Vol. 53, No. 4, pp. 43–51 (July 2017)
+	\end{tabular}
+	\vskip 2em
+	\noindent\dotfill
+	
+	%\paragraph*{This article points out that the challenges can be summarized as follows: the challenge of analyzing client needs in terms of dealing with natural language; the research challenge posed by the choice of materials; and the challenge of achieving knowledge transfer between designers.}
+	
+	%\paragraph*{This article points out that the challenges can be summarized as follows: the challenge of analyzing client needs in terms of dealing with natural language; the research challenge posed by the choice of materials; and the challenge of achieving knowledge transfer between designers.}
+	
+	
 	\newpage
 	\hrule
 	\newpage
